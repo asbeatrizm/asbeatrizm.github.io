@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Pessoal</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container {
+            display: grid;
+
+        }
+
+        header {  
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 1;
+        }
+
+        .menu {
+            grid-column-start: 6; /*especifica as colunas do menu*/
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            justify-content: center;
+            gap: 40px;
+        }
+
+
+        .imagem_ana {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            border: solid 4px #dd1ea7;
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        header {
+            background-color: #dd1ea7;
+            border: 4px double black;
+
+        }
+
+        ul {
+            list-style-type: none;
+
+            color: #dd1ea7; /*estilo dos itens menu*/
+           
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 2px solid #dd1ea7;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #dd1ea7; /*estilo ao passar o mouse*/
+            color:white;
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 6;
+            background-color: #dd1ea7;
+            color:black;
+            text-align: center;
+            border: 4px double black;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Ana Beatriz</h1>
+        <br>
+    </header>
+
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="formacao.html">Formação</a></li>
+            <li><a href="portifolio.html">Portifólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+         <aside class="imagem_ana">
+            <img src="IMG-20240330-WA0036.jpg" width="300px">  
+        </aside>
+
+        <section class="principal">
+            <h1 style="color:#dd1ea7">Sobre mim</h1>
+            <p>Olá, me chamo Ana Beatriz e sou estudante de análise e desenvolvimento de sistemas. Esta é a minha primeira faculdade, me sinto animada e contente com a jornada até aqui e com os próximos desafios que hão de vir.</p>
+            <br>
+            <p>Gosto muito de viajar, sou fascinada em aprender sobre as culturas locais de cada lugar e suas tradições. As praias do nordeste brasileiro estão entre os meus lugares favoritos no mundo.E isso reflete bem nos estados que já morei, foram um total de quatro estados, todos conhecidos por suas belas praias e paisagens.</p>
+            <br>
+            <p>Entre os meus hobbies, destaco a leitura que certamente é o meu hobbie favorito, nas minhas prateleiras literárias os clássicos mundias e nacionais ocupam a maior parte do espaço que também apresentam gêneros literários como religião e espiritualidade, ensaios, ficção científica, romances, ficção, memórias e autobibiografias.</p>
+            <br>
+            <p>Além disso, nas horas vagas costumo tocar teclado, já fui uma das instrumentistas em um grupo da minha igreja.</p>
+        </section>
+        <selection>
+            <div style="background-color: #dd1ea7;">
+            </div>
+        </selection>
+    </div>
+    <footer class="container">
+        <h2>Site desenvolvido para fins educacionais</h2>
+    </footer>
+    </div>
+</body>
+
+</html>
